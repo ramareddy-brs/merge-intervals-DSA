@@ -26,6 +26,13 @@
       <p class="text-start">
         This code defines a function merge that takes an array of intervals as input and merges overlapping intervals. The intervals are represented as arrays with two elements, where the first element is the start point and the second element is the end point
       </p>
+      <form id="intervalForm">
+        <label for="intervalsInput">Enter intervals (e.g., [[1,3],[2,6],[8,10],[15,18]]):</label>
+        <input type="text" id="intervalsInput" required>
+        <button type="button" onclick="mergeIntervals()">Merge Intervals</button>
+      </form>
+    
+      <div id="output"></div>
     </main>
 
     <footer class="footer footer-dark">
